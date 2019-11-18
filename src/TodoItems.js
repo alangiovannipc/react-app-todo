@@ -5,7 +5,7 @@ class TodoItems extends Component {
         return (
             <li key={item.key}
                 onClick={() => this.props.deleteItem(item.key)}>
-                {item.text}>
+                {item.text}
             </li>
         )
     }
